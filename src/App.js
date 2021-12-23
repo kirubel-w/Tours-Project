@@ -22,9 +22,9 @@ function App() {
     }
   };
 
-  // useEffect(() => {
-  //   fetchTours();
-  // }, []);
+  useEffect(() => {
+    fetchTours();
+  }, []);
 
   if (loading) {
     return (
